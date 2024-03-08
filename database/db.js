@@ -1,9 +1,9 @@
 const mysql = require('mysql');
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root', 
-  database: 'db_po'
+  host: 'mysql-db-po-wridho246-e6c6.a.aivencloud.com',
+  user: 'avnadmin', 
+  database: 'defaultdb'
 });
 
 connection.connect((err) => {
